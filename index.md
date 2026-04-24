@@ -22,7 +22,7 @@ A RAG (Retrieval-Augmented Generation) pipeline in LangChain connects your data 
 <table>
   <tr>
     <td width="35%" valign="top" align="center">
-      <img src="https://github.com/user-attachments/assets/eebfe822-a5b3-43fa-88e0-790e0422e9fd" width="100%"/>
+      <img src="https://github.com/user-attachments/assets/eebfe822-a5b3-43fa-88e0-790e0422e9fd" width="90%"/>
     </td>
     <td width="65%" valign="top">
       <ul>
@@ -50,7 +50,34 @@ A RAG (Retrieval-Augmented Generation) pipeline in LangChain connects your data 
   </tr>
 </table>
 
+### Retrieval and Generation  
+<table>
+  <tr>
+    <td width="40%" valign="top" align="center">
+      <img src="https://github.com/user-attachments/assets/37ad3f09-5107-4704-9820-0d7bdde08880" width="100%"/>
+    </td>
+    <td width="60%" valign="top">
+      <p>
+         <li>The <b>VectorDB QA Chain</b> will access the vector store to retrieve relevant context for a user’s query.</li>
+      </p>
+      <p>
+        <li>This retrieved information is passed to a chat model along with the question to generate a grounded answer. In this RAG setup, I utilized the <b>ChatOpenRouter API</b> endpoint via its dedicated node, allowing access to various free models without incurring API costs.</li>
+      </p>
+    </td>
+  </tr>
+</table>
 
-<img width="600" height="520" alt="Image" src="https://github.com/user-attachments/assets/37ad3f09-5107-4704-9820-0d7bdde08880" />
+### The complete RAG Chain
+<img width="1000" height="750" alt="Image" src="https://github.com/user-attachments/assets/797a2c50-ca21-48d8-a67f-6453978bc224" />  
 
-<img width="1260" height="852" alt="Image" src="https://github.com/user-attachments/assets/797a2c50-ca21-48d8-a67f-6453978bc224" />
+### Interface  
+Once the RAG is completed, this is the final step to move the chatbot out of the Flowise editor and into a real-world interface.  
+There are several options available, you can embed the chatbot as a popup widget on any website or share the chatbot link with others.  
+I will use the share chatbot link to make a quick video demo of this RAG chatbot.
+<img width="700" height="380" alt="image" src="https://github.com/user-attachments/assets/9e7d5ec5-ae77-4d70-9250-e42ed93a99c2" />
+
+
+### Pro-Tips for a $0 RAG Build  
+My goal is a totally free development environment, here is the "Golden Stack" for 2026:  
+<img width="700" height="280" alt="image" src="https://github.com/user-attachments/assets/a624eb84-77b2-4f97-9d0e-eecbc7d0479e" />
+
