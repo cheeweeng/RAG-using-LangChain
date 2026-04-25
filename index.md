@@ -80,7 +80,9 @@ I will use the share chatbot link to make a quick [video demo of this RAG chatbo
 <img width="700" height="380" alt="image" src="https://github.com/user-attachments/assets/9e7d5ec5-ae77-4d70-9250-e42ed93a99c2" />
 
 ### Pro-Tips for a $0 RAG Build  
-My goal is a totally free development environment, here is the "Golden Stack" for 2026:  
+My goal is a totally free development environment, here is the "Golden Stack" for 2026 provided by Gemini 3:  
 <img width="700" height="280" alt="image" src="https://github.com/user-attachments/assets/a624eb84-77b2-4f97-9d0e-eecbc7d0479e" />
+
+This post is not sponsored and there are no affiliate links.  
 
 Back to [Projects portfolio](https://cheeweeng.github.io/)
