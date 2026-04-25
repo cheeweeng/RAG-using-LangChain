@@ -6,11 +6,12 @@ A RAG (Retrieval-Augmented Generation) pipeline in LangChain connects your data 
 <table>
   <tr>
     <td width="40%" valign="top" align="center">
-      <img src="https://github.com/user-attachments/assets/feb1c0f2-9dbb-44b4-92f8-56956e0d69f4" width="100%"/>
+      <img src="https://github.com/user-attachments/assets/cdda123e-2864-4417-b661-1ad02ec3fe79" width="100%"/>
     </td>
     <td width="60%" valign="top">
       <ul>
-        <li>LangChain has document loader nodes that read PDFs, text files, webpages, etc. into a usable format.</li>  <p></p>
+        <li>LangChain has document loader nodes that read PDFs, text files, webpages, etc. into a usable format. In this setup, I have uploaded a LTA Sustainability Report 2024/2025 using a standard PDF loader. </li>  <p></p>
+        <li>Caveat: A standard PDF loader may struggle with tables and ignore images.</li><p></p>
         <li>Use the <b>Recursive Text Splitter</b> node to break large documents into smaller chunks. This makes searching faster and more accurate.</li>
       </ul>
     </td>
@@ -71,13 +72,15 @@ A RAG (Retrieval-Augmented Generation) pipeline in LangChain connects your data 
 <img width="1000" height="750" alt="Image" src="https://github.com/user-attachments/assets/797a2c50-ca21-48d8-a67f-6453978bc224" />  
 
 ### Interface  
-Once the RAG is completed, this is the final step to move the chatbot out of the Flowise editor and into a real-world interface.  
-There are several options available, you can embed the chatbot as a popup widget on any website or share the chatbot link with others.  
-I will use the share chatbot link to make a quick video demo of this RAG chatbot.
+Once the RAG is completed, you can test the chatbot inside the flowise editor. After that, the final step is to move the chatbot out of the Flowise editor and into a real-world interface.  
+There are several options available, you can embed the chatbot as a popup widget on any website or share the chatbot link with others.   
+Share Chatbot creates a standalone, hosted webpage just for that specific bot.   
+I will use the share chatbot link to make a quick [video demo of this RAG chatbot](https://youtu.be/ZaYb0DcJTag).
+<p></p>
 <img width="700" height="380" alt="image" src="https://github.com/user-attachments/assets/9e7d5ec5-ae77-4d70-9250-e42ed93a99c2" />
-
 
 ### Pro-Tips for a $0 RAG Build  
 My goal is a totally free development environment, here is the "Golden Stack" for 2026:  
 <img width="700" height="280" alt="image" src="https://github.com/user-attachments/assets/a624eb84-77b2-4f97-9d0e-eecbc7d0479e" />
 
+Back to [Projects portfolio](https://cheeweeng.github.io/)
